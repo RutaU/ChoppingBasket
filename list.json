@@ -1,0 +1,19 @@
+{
+	"myitems": [
+	 	{
+			"itemname": "iPhone",
+			"image": "./Images/laptop1_small.png",
+			"price": 150
+		 }, {
+		
+			"itemname": "Samsung",
+			"image": "./Images/laptop2_small.png",
+			"price": 250
+		},
+		{
+			"itemname": "Asus",
+			"image": "./Images/laptop3_small.png",
+			"price": 200	
+		}
+	]
+}
