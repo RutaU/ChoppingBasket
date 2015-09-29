@@ -1,19 +1,46 @@
 {
 	"myitems": [
 	 	{
-			"itemname": "iPhone",
-			"image": "./Images/laptop1_small.png",
-			"price": 150
+			"itemname": "MODELIS: C710-2834.", 
+			"itemdescription": "Acer CHROMEBOOK C710-2834 - 11,6'' (1366 x 768) Glare | Intel 1007U | 2GB |SSD 16GB | Intel HD | Google Chrome OS | Silver | Refurbish",
+			"image": "./Images/laptop1_medium.png",
+			"amount": 5,
+			"price": 150.59			
 		 }, {
 		
-			"itemname": "Samsung",
-			"image": "./Images/laptop2_small.png",
-			"price": 250
+			"itemname": "MODELIS: R301LA-XX074.",
+			"itemdescription": "Asus R301LA/13,3'' LED HD /i5-5200U/4GB/1TB/INTEL HD 5500/DOS Silver",
+			"image": "./Images/noimage_medium.png",
+			"amount": 1,
+			"price": 490
 		},
 		{
-			"itemname": "Asus",
-			"image": "./Images/laptop3_small.png",
-			"price": 200	
+			"itemname": "MODELIS: R301LA-XX074H.",
+			"itemdescription": "Asus R301LA/13,3'' LED HD /i5-5200U/4GB/1TB/INTEL HD 5500/Win 8.1 64 Bit Silver",
+			"image": "./Images/laptop3_medium.png",
+			"amount": 1,
+			"price": 535	
+		},
+		{
+			"itemname": "MODELIS: R301LJ-XX030D.",
+			"itemdescription": "Asus R301LJ/13,3'' LED HD /i5-5200U/4GB/1TB/nV GT920 2GB + HD 5500/DOS Silver",
+			"image": "./Images/noimage_medium.png",
+			"amount": 4,
+			"price": 553.00
+		},		
+		{
+			"itemname": "MODELIS: R510LV-SB51.",
+			"itemdescription": "Asus R510LAV 15,6'' HD/Core i5-4210U/6GB/1TB/Intel HD/DVD-RW/Win8 Refurb",
+			"image": "./Images/noimage_medium.png",
+			"amount": 3,
+			"price": 456.00
+		},
+		{
+			"itemname": "MODELIS: X554LA-XO840D.",
+			"itemdescription": "Asus X554LA 15,6'' HD I3-5010U 4GB 500GB INtel HD DVDRW DOS",
+			"image": "./Images/laptop2_medium.png",
+			"amount": 0,
+			"price": 447.00
 		}
 	]
 }

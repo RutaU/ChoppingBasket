@@ -80,12 +80,13 @@ tr.productListing.group td {
     font-size: 12px;
     font-weight: bold;
 }
-tr.productListing.odd td {
-    background: #EAF3E6 none repeat scroll 0% 0%;
+tr:nth-child(odd) {
+    background: #EAF3E6  none repeat scroll 0% 0%;
 }
-tr.productListing.even td {
-    background: #FFF none repeat scroll 0% 0%;
+tr:nth-child(even) {
+     background: #FFF none repeat scroll 0% 0%;
 }
+
 tr.productListingSmall td.model {
     display: none;
 }
@@ -137,7 +138,7 @@ body, html, img {
 .list-image-wrap img {
     display: block;
     margin: auto;
- /*   vertical-align: middle; */
+  /*  vertical-align: middle; */
 }
 tr.productListing td.icons {
     text-align: center;
@@ -172,25 +173,18 @@ div.button-skytech-container {
     clear: none;
 }
 
-div.button-skytech-container.button-trans div.button-start {
-    background-image: url("./Images/button-skytech.png");
-}
 div.button-skytech-container div.button-start {
     height: 24px;
     width: 12px;
     float: left;
-    background-image: url("./Images/button-skytech.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
 }
 div.button-skytech-container div {
     float: none;
 }
-div.button-skytech-container.button-trans div.button-label {
-    background-image: url("./Images/button-skytech.png");
-}
+
 div.button-skytech-container div.button-label {
-    background-image: url("./Images/button-skytech.png");
     background-position: 0px -24px;
     background-repeat: repeat-x;
     float: left;
@@ -201,7 +195,6 @@ div.button-skytech-container div.button-label {
     text-align: center;
 }
 div.button-skytech-container div.button-label input.icon-cart {
-    background: transparent url("./Images/toolbar.png") no-repeat scroll 0px -188px;
     height: 24px;
     width: 24px;
     position: static;
@@ -244,14 +237,10 @@ div.icon-phone-blue, span.icon-phone-blue {
     background: transparent url("./Images/toolbar.png") no-repeat scroll -55px -213px;
     display: block;
 }
-div.button-skytech-container.button-trans div.button-end {
-    background-image: url("./Images/button-skytech.png");
-}
 div.button-skytech-container div.button-end {
     height: 24px;
     width: 12px;
     float: left;
-    background-image: url("./Images/button-skytech.png");
     background-repeat: no-repeat;
     background-position: -12px 0px;    
 }
@@ -269,8 +258,6 @@ div.button-skytech-container div.button-end {
     z-index: 1;
     padding: 0px 5px 0px 0px;
     height: 30px;
- /*   background: transparent url("./Images/glyphicons-203-shopping-cart.png") 
-    no-repeat scroll 0px 0px; */
     cursor: pointer;
 }
 #krepselis.empty div {
