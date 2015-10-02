@@ -7,48 +7,48 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 	<script type="text/javascript" src="loadjson.js"></script>
 	<script type="text/javascript" src="switch.js"></script>
 	<script type="text/javascript" src="swichlist.js"></script>
-
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
 	<link type="text/css" rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
-<div class="pagewrapper" align="center">
-<div id="centerpanel" class="center-panel">
-	<div class="contentbox-center-wrap nopad" style="min-height: 300px;">
-		<div id="listing-filter-panel">
-			<div id="listing-filter-panel-vaizdavimas-sarasas" class="listing-filter-panel-vaizdavimas normalList"></div>
-			<div id="listing-filter-panel-vaizdavimas-sarasasfoto" class="listing-filter-panel-vaizdavimas checked smallList"></div>
+	<div class="pagewrapper" align="center">
+		<div id="centerpanel" class="center-panel">
+			<div class="contentbox-center-wrap nopad" style="min-height: 300px;">
+				<div id="listing-filter-panel">
+					<div id="listing-filter-panel-vaizdavimas-sarasas" class="listing-filter-panel-vaizdavimas normalList"></div>
+					<div id="listing-filter-panel-vaizdavimas-sarasasfoto" class="listing-filter-panel-vaizdavimas checked smallList"></div>
 
-			<div id="krepselis" class="empty">
-				<div>
-					<span class="text basketinfo"></span>
-					<span class="icon-cart"></span>
+					<div id="krepselis" class="empty">
+						<div>
+							<span class="text basketinfo"></span>
+							<span class="icon-cart"></span>
+						</div>
+					</div>
+					<div style="clear:both;"></div>
 				</div>
+				<div id="dialog-confirm" title="Prekės pašalinimas">Ar tikrai norite pašalinti?</div>
+				<table class="productListing itemList" border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tbody>
+						<tr>
+							<td class="productListing-heading model" width="92px">&nbsp;Paveikslėlis&nbsp;</td>
+							<td class="productListing-heading" align="center" width="35px">&nbsp;&nbsp;</td>
+							<td class="productListing-heading" width="100%">&nbsp;Pavadinimas&nbsp;</td>
+							<td class="productListing-heading kiekis" align="center" width="73px">&nbsp; Kiekis&nbsp;</td>
+							<td class="productListing-heading" align="center" width="88px">&nbsp;e-Kaina&nbsp;</td>
+							<td class="productListing-heading" align="right" width="31px">&nbsp;&nbsp;</td>
+							<td class="productListing-heading" align="right" width="31px">&nbsp;&nbsp;</td>
+						</tr>
+
+					</tbody>
+				</table>
 			</div>
-
-			<div style="clear:both;"></div>
 		</div>
-		<table class="productListing itemList"  border="0" cellpadding="0" cellspacing="0" width="100%">
-			<tbody>
-				<tr>
-					<td class="productListing-heading model" width="92px">&nbsp;Paveikslėlis&nbsp;</td>
-					<td class="productListing-heading" align="center" width="35px">&nbsp;&nbsp;</td>
-					<td class="productListing-heading" width="100%">&nbsp;Pavadinimas&nbsp;</td>
-					<td class="productListing-heading kiekis" align="center" width="73px">&nbsp; Kiekis&nbsp;</td>
-					<td class="productListing-heading" align="center" width="88px">&nbsp;e-Kaina&nbsp;</td>
-					<td class="productListing-heading" align="right" width="31px">&nbsp;&nbsp;</td>
-					<td class="productListing-heading" align="right" width="31px">&nbsp;&nbsp;</td>
-				</tr>
-
-				
-			</tbody>
-		</table>
 	</div>
-</div>
-</div>
 </body>
 
 </html>
